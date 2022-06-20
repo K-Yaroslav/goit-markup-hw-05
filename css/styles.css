@@ -439,7 +439,8 @@ header {
 
   fill: #afb1b8;
 
-  transition: fill, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-button:hover,
@@ -467,7 +468,7 @@ header {
   fill: #afb1b8;
   border: 1px solid #afb1b8;
 
-  transition: border, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .clients-link + .clients-link {
@@ -663,7 +664,8 @@ address {
   color: var(--title-text-color);
   cursor: pointer;
 
-  transition: box-shadow, color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-button .button:hover,
@@ -752,7 +754,6 @@ address {
 .projects-list-overlay {
   position: absolute;
   display: flex;
-  /* opacity: 0; */
 
   top: 0;
   left: 0;
@@ -771,7 +772,8 @@ address {
   height: 294px;
   color: var(--primary-bg-color);
 
-  transition: opacity, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-list .link:hover .projects-list-overlay,
