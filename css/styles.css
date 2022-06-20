@@ -621,7 +621,7 @@ address {
   display: flex;
   align-items: center;
   position: absolute;
-  padding: 0;
+  padding: 6px;
   right: 8px;
   top: 8px;
   border-radius: 50%;
